@@ -4,6 +4,9 @@
 
 <p> 1: Linux / Mac? </p>
 
+Sounds like maybe `vulkan-headers` is depricated and `libvulkan-dev` is to be used now.
+
+
 ```bash
 sudo apt update
 sudo apt install libvulkan-dev vulkan-headers vulkan-tools glslang-tools
