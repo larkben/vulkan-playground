@@ -6,4 +6,10 @@ Test::Test() {
 
 void Test::hello() {
     std::cout << "Hello World!" << std::endl;
+
+    times_called++;
+}
+
+int Test::getTimesCalled() {
+    return times_called;
 }

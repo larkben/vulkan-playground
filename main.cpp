@@ -100,5 +100,15 @@ int main() {
 
     practice.hello();
 
+    int t = practice.getTimesCalled();
+
+    std::cout << t << std::endl; 
+
+    practice.hello();
+
+    t = practice.getTimesCalled();
+
+    std::cout << t << std::endl;
+
     return 0;
 }

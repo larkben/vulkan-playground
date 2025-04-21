@@ -7,6 +7,7 @@ class Test {
 public:
     Test();
     void hello();
+    int getTimesCalled();
 private:
     int times_called;
 
