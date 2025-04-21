@@ -28,7 +28,7 @@ private:
     
     void initWindow() {
         glfwInit();
-        //glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API); // doesn't seem required
+        //glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API); // does something important https://vulkan-tutorial.com/Drawing_a_triangle/Setup/Base_code
         glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
         window = glfwCreateWindow(800, 600, "Test", nullptr, nullptr);
     }
