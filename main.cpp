@@ -1,13 +1,17 @@
 // C++ Gui Program
 
-// VULKAN HEADER   
+#include <iostream>
+#include <vector>
+#include <cstring>
+
+#include "test.h"
+
+// VULKAN HEADER
+/*
 #define GLFW_INCLUDE_VULKAN 
 #include <GLFW/glfw3.h>
 
-#include <iostream>
 #include <stdexcept>
-#include <vector>
-#include <cstring>
 
 class VulkanApplication {
 public:
@@ -87,4 +91,14 @@ int main() {
     }
     
     return EXIT_SUCCESS;                                // return 0
+}
+
+*/
+
+int main() {
+    Test practice;
+
+    practice.hello();
+
+    return 0;
 }
