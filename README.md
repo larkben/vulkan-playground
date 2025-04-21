@@ -2,7 +2,7 @@
 
 ### Install Options
 
-<p> 1: Linux / Mac? </p>
+<p> 1: Linux </p>
 
 Sounds like maybe `vulkan-headers` is depricated and `libvulkan-dev` is to be used now.
 
@@ -20,6 +20,5 @@ make
 
 <p> 2: Windows </p>
 
-```bash
-...
-```
+probably best to use the `purple` vscode.. following these instructions https://vulkan-tutorial.com/Development_environment#page_Windows
+
