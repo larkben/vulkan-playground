@@ -20,6 +20,12 @@ make
 
 <p> 2: Windows </p>
 
-```bash
-...
-```
+https://vulkan-tutorial.com/Development_environment#page_Windows
+
+<p> 3: MacOSX </p>
+
+https://vulkan-tutorial.com/Development_environment#page_MacOS
+
+### Tasks
+
+- [] draw triangle
