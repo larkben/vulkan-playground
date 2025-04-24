@@ -1,7 +1,6 @@
 // Chess Class Header File
 
 #include <vector>
-#include <pair> // should look into this
 
 enum GamePieces {
     king = 0, 
@@ -10,7 +9,7 @@ enum GamePieces {
     knight = 3,
     bishop = 4,
     pawn = 5
-}
+};
 
 // chess board
 class Chess {
@@ -21,8 +20,9 @@ class Chess {
 
     private:
 
-        vector<pair<int, >> whitePieces; // locations
-        vector<pair<int, >> blackPieces; // locations
+        // unique data struct (piece <x, y>)
+        std::vector<std::pair<GamePieces, std::pair<int , int>>> whitePieces; // locations
+        std::vector<std::pair<GamePieces, std::pair<int , int>>> blackPieces; // locations
 
         void drawAllPossiblePositions(ChessPiece piece); 
 };
@@ -30,4 +30,4 @@ class Chess {
 // chess piece ~ rational?
 class ChessPiece {
     
-}
+};
